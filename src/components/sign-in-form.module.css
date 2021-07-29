@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  padding: var(--dl-space-half-unit);
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.input {
+  padding: var(--dl-space-half-unit);
+  border-radius: var(--dl-radius-radius4);
+  margin-bottom: var(--dl-space-unit);
+}
+.button {
+  color: var(--dl-color-white);
+  width: 100%;
+  text-align: center;
+  border-radius: var(--dl-radius-radius4);
+  margin-bottom: var(--dl-space-half-unit);
+  background-color: var(--dl-color-primary-abac);
+  padding: var(--dl-space-half-unit);
+}
+.join {
+  background-color: var(--dl-color-success);
+}

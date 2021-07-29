@@ -1,0 +1,106 @@
+.cardRoot {
+  width: 100%;
+  margin: var(--dl-space-half-unit);
+  display: flex;
+  padding: var(--dl-space-unit);
+  align-items: center;
+  border-color: var(--dl-color-gray);
+  border-width: 1px;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.cardDetails {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.editStatus {
+  border: 1px solid var(--dl-color-gray);
+  border-radius: var(--dl-radius-radius4);
+}
+
+.validationMessage {
+  color: var(--dl-color-primary-abac);
+  margin: 0 var(--dl-space-unit);
+}
+
+.editAddon {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.editTextarea {
+  border: 1px solid var(--dl-color-gray);
+  border-radius: var(--dl-radius-radius4);
+  resize: vertical;
+  max-height: 500px;
+  width: 100%;
+}
+
+.saveChangesBtn {
+  padding: var(--dl-space-half-unit);
+  background-color: var(--dl-color-success);
+  width: 100px;
+  border-radius: var(--dl-radius-radius4);
+  transition: 0.3s;
+}
+
+.saveChangesBtn:hover {
+  background-color: lime;
+}
+
+.editAddon > * {
+  margin-top: var(--dl-space-unit);
+}
+
+.captainAndRobots {
+  display: flex;
+  flex-direction: column;
+}
+
+.leftContainer {
+  flex: 0 0 auto;
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  justify-content: center;
+  margin-left: var(--dl-space-unit);
+  margin-right: var(--dl-space-unit);
+  flex-direction: column;
+}
+.image {
+  width: 60px;
+  object-fit: cover;
+  margin-bottom: var(--dl-space-unit);
+}
+.planetName {
+  font-style: normal;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.middleContainer {
+  flex: 1;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.middleContainer.noDescription {
+  justify-content: center;
+}
+
+.captainText {
+  font-size: 10px;
+}
+.status {
+  margin-left: var(--dl-space-unit);
+  margin-right: var(--dl-space-unit);
+}
